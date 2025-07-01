@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tela do Atendente - Fila</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { color: #333; }
+    ul { list-style: none; padding: 0; }
+    li { padding: 10px; border-bottom: 1px solid #ccc; }
+    button { margin-left: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Fila de Atendimento</h1>
+  <ul id="fila">
+    <li>Cliente 1 <button>Chamar</button></li>
+    <li>Cliente 2 <button>Chamar</button></li>
+    <li>Cliente 3 <button>Chamar</button></li>
+  </ul>
+  <button id="atualizar">Atualizar Fila</button>
+
+  <script>
+    // Aqui pode entrar a lógica para atualizar e manipular a fila
+    document.getElementById('atualizar').addEventListener('click', () => {
+      alert('Atualizando fila (aqui você colocaria a lógica real)');
+    });
+  </script>
+</body>
+</html>
